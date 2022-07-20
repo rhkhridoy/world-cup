@@ -6,6 +6,10 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+
+/* --------------------Common Style End-------------------- */
+
 /* ----------------Header Style Start---------------------- */
 #banner{
     width: 80%;
@@ -51,3 +55,140 @@ body{
     transition: padding 1s linear;
 }
 /* ------------------Header Style End------------------- */
+
+/* -----------------Main Section Start------------------ */
+
+section{
+    display: flex;
+    justify-content: center;
+}
+.blog-button{
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    gap: 30px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+.blog-button a{
+    padding: 15px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+.blogs{
+    margin-left: 5px;
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+}
+.blog{
+    width: 250px;
+    height: 350px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+.blog-image img{
+    width: 100%;
+}
+.blog-text{
+    padding: 20px;
+}
+.blog-text a{
+    text-decoration: none;
+    color: #000;
+    padding: 5px 10px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+}
+.blog-text h5{
+    margin-top: 20px;
+}
+.time-chat{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.match-schedule{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.match-schedule img{
+    padding: 10px;
+    width: 100%;
+}
+.schedule-blog{
+    width: 250px;
+    height: 250px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+.schedule-time{
+    text-align: center;
+    padding-top: 25px;
+}
+.view-button{
+    display: none;
+    text-align: center;
+}
+/* --------------------Main Section End------------------ */
+
+/* -------------------Footer Style Start----------------- */
+footer{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    background-color: black;
+    width: 100%;
+    height: 300px;
+}
+footer h1{
+    font-weight: 700;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+footer hr{
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer ul{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #B9B9B9;
+}
+footer nav > a{
+    padding: 20px;
+    border-radius: 5px;
+}
+/* ----------------------Footer Style End--------------------- */
